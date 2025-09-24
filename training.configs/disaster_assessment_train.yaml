@@ -1,0 +1,89 @@
+# Disaster Assessment fine-tune config for Qwen2-VL 2B Instruct
+#
+# Fine-tuning Qwen2-VL 2B on disaster building damage assessment
+# Dataset: Tushar365/disaster-assessment-qwen2vl
+#
+# Requirements:
+#   - Log into WandB (`wandb login`) or disable `enable_wandb`
+#
+# Usage:
+#   oumi train -c disaster_assessment_train.yaml
+
+model:
+  model_name: "Qwen/Qwen2-VL-2B-Instruct"
+  torch_dtype_str: "bfloat16"
+  model_max_length: 4096
+  trust_remote_code: True
+  attn_implementation: "sdpa"
+  chat_template: "qwen2-vl-instruct"
+  # REMOVED freeze_layers to allow full fine-tuning for your specific domain
+
+data:
+  train:
+    collator_name: "vision_language_with_padding"
+    use_torchdata: True
+    datasets:
+      - dataset_name: "Tushar365/disaster-assessment-qwen2vl"  # 🔥 YOUR DATASET
+        split: "train"  # 🔥 CHANGED: Use your train split
+        shuffle: True
+        seed: 42
+        transform_num_workers: "auto"
+        dataset_kwargs:
+          processor_name: "Qwen/Qwen2-VL-2B-Instruct"
+          return_tensors: True
+          # No limit needed - you have 20 quality samples
+
+  # ADDED: Validation dataset for monitoring
+  eval:
+    collator_name: "vision_language_with_padding"
+    use_torchdata: True
+    datasets:
+      - dataset_name: "Tushar365/disaster-assessment-qwen2vl"  # 🔥 YOUR DATASET
+        split: "test"  # 🔥 CHANGED: Use your validation split
+        shuffle: False
+        seed: 42
+        transform_num_workers: "auto"
+        dataset_kwargs:
+          processor_name: "Qwen/Qwen2-VL-2B-Instruct"
+          return_tensors: True
+
+training:
+  output_dir: "output/disaster_assessment_qwen2vl"  # 🔥 CHANGED: Specific output name
+  trainer_type: "TRL_SFT"
+  enable_gradient_checkpointing: True
+  per_device_train_batch_size: 1 # Must be 1 for vision models
+  gradient_accumulation_steps: 8  # 🔥 REDUCED: Smaller dataset, less accumulation needed
+
+  # 🔥 ADJUSTED: For your smaller dataset (20 samples)
+  num_train_epochs: 3  # 🔥 CHANGED: Multiple epochs instead of max_steps
+  # max_steps: 60  # Alternative: 20 samples * 3 epochs = 60 steps
+
+  evaluation_strategy: "epoch"  # 🔥 ADDED: Evaluate each epoch
+  eval_steps: 20  # 🔥 ADDED: Evaluate every 20 steps
+  save_strategy: "epoch"  # 🔥 ADDED: Save each epoch
+  load_best_model_at_end: True  # 🔥 ADDED: Load best model
+  metric_for_best_model: "eval_loss"  # 🔥 ADDED: Use eval loss as metric
+
+  gradient_checkpointing_kwargs:
+    use_reentrant: False
+  max_grad_norm: 1.0  # 🔥 CHANGED: Less aggressive clipping for small dataset
+  ddp_find_unused_parameters: False
+  empty_device_cache_steps: 1
+  compile: False
+
+  # 🔥 ADJUSTED: Learning parameters for disaster assessment domain
+  optimizer: "adamw_torch_fused"
+  learning_rate: 1e-5  # 🔥 CHANGED: Lower LR for fine-tuning on specific domain
+  warmup_ratio: 0.1   # 🔥 CHANGED: More warmup for stability
+  weight_decay: 0.01  # 🔥 CHANGED: Less regularization for small dataset
+  lr_scheduler_type: "cosine"
+
+  # 🔥 ADJUSTED: Logging for small dataset
+  logging_steps: 2    # 🔥 CHANGED: Log more frequently
+  save_steps: 20      # 🔥 CHANGED: Save every 20 steps
+  dataloader_main_process_only: False
+  dataloader_num_workers: 2
+  dataloader_prefetch_factor: 4  # 🔥 REDUCED: Less prefetching for small dataset
+  include_performance_metrics: True
+  log_model_summary: True  # 🔥 CHANGED: Enable model summary
+  enable_wandb: True  # Keep WandB for monitoring

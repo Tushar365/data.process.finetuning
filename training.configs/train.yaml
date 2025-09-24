@@ -28,7 +28,7 @@ data:
     use_torchdata: True
     datasets:
       - dataset_name: "Tushar365/disaster-assessment-qwen2vl"
-        split: "validation"
+        split: "train"
         shuffle: False
         seed: 42
         transform_num_workers: "auto"

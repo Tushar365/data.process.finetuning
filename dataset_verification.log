@@ -1,0 +1,444 @@
+DATASET PROCESSING VERIFICATION LOG
+Generated at: D:\projects\AI Finetuning\OUMI\dataprocess
+Dataset directory: train
+================================================================================
+✅ File integrity verified for midwest-flooding_00000001
+   Pre-JSON: 109854 bytes
+   Post-JSON: 117928 bytes
+   Pre-Image: 1271710 bytes
+   Post-Image: 1267496 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000001
+================================================================================
+PRE-DISASTER BUILDINGS: 143
+POST-DISASTER BUILDINGS: 143
+PRE-DISASTER UIDs: ['4c377263-4b6b-4726-be6f-e3888ea56d8e', '532adf02-3458-4ec8-a7f2-006b4aaf1912', '1f40b426-ba56-41d4-a213-abf8a4829b9d', '26a4dc12-2a1e-4d48-85e1-c734d162b79f', '75846455-740b-423c-b845-d2880baf4971', '87370271-0542-4510-87d3-2e2a6b2d122f', '3db110b8-2f1f-4727-87b7-a163f950d927', 'bfad2107-eb34-4805-a185-d7834ed9ff76', '4359c048-d36e-4eba-b0d9-f76bbe559644', 'f797a37c-6b24-4a09-a541-78a80c64483c']...
+POST-DISASTER UIDs: ['4c377263-4b6b-4726-be6f-e3888ea56d8e', '532adf02-3458-4ec8-a7f2-006b4aaf1912', '1f40b426-ba56-41d4-a213-abf8a4829b9d', '26a4dc12-2a1e-4d48-85e1-c734d162b79f', '75846455-740b-423c-b845-d2880baf4971', '87370271-0542-4510-87d3-2e2a6b2d122f', '3db110b8-2f1f-4727-87b7-a163f950d927', 'bfad2107-eb34-4805-a185-d7834ed9ff76', '4359c048-d36e-4eba-b0d9-f76bbe559644', 'f797a37c-6b24-4a09-a541-78a80c64483c']...
+DAMAGE ASSESSMENT LENGTH: 592 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 143
+• No damage: 119 buildings (83.2%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000002
+   Pre-JSON: 11865 bytes
+   Post-JSON: 12460 bytes
+   Pre-Image: 1306321 bytes
+   Post-Image: 1316192 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000002
+================================================================================
+PRE-DISASTER BUILDINGS: 11
+POST-DISASTER BUILDINGS: 11
+PRE-DISASTER UIDs: ['94895998-39e7-4faf-b063-28149077717e', 'be818324-086f-4972-998f-2d377df546fb', 'adb954d5-c5d0-4ec8-98b4-9d5b135e846e', 'fcd60a81-4e24-40bf-bda1-37be9f04693b', 'c8cb89dc-8303-41f7-b70c-f973f45588ad', '022fcc91-fe95-499e-a0a0-a875f437318b', '3ddc7d5f-a780-4bf0-9c63-9ba76bfa15c2', '8c37a5da-3e22-445a-8e8f-8cb43d552a74', 'ab97cbcc-bbf5-4b11-b381-5316e3f41d4b', 'df34c809-11c8-4666-9ab4-41faf4cd332c']...
+POST-DISASTER UIDs: ['94895998-39e7-4faf-b063-28149077717e', 'be818324-086f-4972-998f-2d377df546fb', 'adb954d5-c5d0-4ec8-98b4-9d5b135e846e', 'fcd60a81-4e24-40bf-bda1-37be9f04693b', 'c8cb89dc-8303-41f7-b70c-f973f45588ad', '022fcc91-fe95-499e-a0a0-a875f437318b', '3ddc7d5f-a780-4bf0-9c63-9ba76bfa15c2', '8c37a5da-3e22-445a-8e8f-8cb43d552a74', 'ab97cbcc-bbf5-4b11-b381-5316e3f41d4b', 'df34c809-11c8-4666-9ab4-41faf4cd332c']...
+DAMAGE ASSESSMENT LENGTH: 1061 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 11
+• No damage: 6 buildings (54.5%) - These structures show no visible signs of...
+✅ File integrity verified for midwest-flooding_00000003
+   Pre-JSON: 169834 bytes
+   Post-JSON: 180478 bytes
+   Pre-Image: 1625645 bytes
+   Post-Image: 1476043 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000003
+================================================================================
+PRE-DISASTER BUILDINGS: 191
+POST-DISASTER BUILDINGS: 191
+PRE-DISASTER UIDs: ['1de83462-fc33-4370-8ae9-2aac8e6fe9a4', 'aff21090-f904-4435-9c3e-019f44d3b665', '1b5c4df7-0707-47d7-aa9f-9bdb5bc8117b', '4b46e7a7-9879-4ff0-a497-4817f73b5a24', 'd34b1ab8-0e6b-430c-be1a-c10cb753660e', 'd803f919-62cc-4414-aedc-37a13b474e2f', 'f5642d67-1bc5-4ac2-a09b-d581787ae0c8', 'b923329c-47c2-471f-9dbc-9de226d6a525', '15a757c4-b599-479b-8362-feee0e9dbd45', 'e048b2b1-a3c4-4e54-b475-3239c8061d9f']...
+POST-DISASTER UIDs: ['1de83462-fc33-4370-8ae9-2aac8e6fe9a4', 'aff21090-f904-4435-9c3e-019f44d3b665', '1b5c4df7-0707-47d7-aa9f-9bdb5bc8117b', '4b46e7a7-9879-4ff0-a497-4817f73b5a24', 'd34b1ab8-0e6b-430c-be1a-c10cb753660e', 'd803f919-62cc-4414-aedc-37a13b474e2f', 'f5642d67-1bc5-4ac2-a09b-d581787ae0c8', 'b923329c-47c2-471f-9dbc-9de226d6a525', '15a757c4-b599-479b-8362-feee0e9dbd45', 'e048b2b1-a3c4-4e54-b475-3239c8061d9f']...
+DAMAGE ASSESSMENT LENGTH: 714 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 191
+• No damage: 189 buildings (99.0%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000005
+   Pre-JSON: 2392 bytes
+   Post-JSON: 2551 bytes
+   Pre-Image: 1260141 bytes
+   Post-Image: 1436429 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000005
+================================================================================
+PRE-DISASTER BUILDINGS: 3
+POST-DISASTER BUILDINGS: 3
+PRE-DISASTER UIDs: ['b46f630a-861b-46f1-bbe4-5f85263d872b', 'f9b90610-2670-437d-b68f-0f4c2c7fec17', 'd29986f0-219c-48eb-a2d2-3a6e999da0b3']
+POST-DISASTER UIDs: ['b46f630a-861b-46f1-bbe4-5f85263d872b', 'f9b90610-2670-437d-b68f-0f4c2c7fec17', 'd29986f0-219c-48eb-a2d2-3a6e999da0b3']
+DAMAGE ASSESSMENT LENGTH: 704 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 3
+• Completely destroyed: 3 buildings (100.0%) - Structures are completely demo...
+✅ File integrity verified for midwest-flooding_00000007
+   Pre-JSON: 50962 bytes
+   Post-JSON: 54131 bytes
+   Pre-Image: 1536842 bytes
+   Post-Image: 1436335 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000007
+================================================================================
+PRE-DISASTER BUILDINGS: 54
+POST-DISASTER BUILDINGS: 54
+PRE-DISASTER UIDs: ['84cd06c3-cce7-438e-adee-8df93cdf2c67', '71b1214d-5609-47cf-b76b-ec2e4ed65886', 'dd7611ab-55de-4b6f-a93a-b66a10e4eb8b', '384bd03a-185f-44c7-aa6d-188a156b4296', 'd62cfe06-1dfd-431b-9e47-ff5cf9e92a62', 'd4f47ea6-2795-497d-b7ca-78a29c973dd3', 'e13339ca-426d-4ade-acf1-e7d6a00c6fc2', 'e2b8b728-18b2-472d-bee8-cb84922b0b3c', 'be790ec7-ee98-4781-ad00-6df196df84d7', '6b771d0e-6d8c-43dd-93d6-6af06c07dea8']...
+POST-DISASTER UIDs: ['84cd06c3-cce7-438e-adee-8df93cdf2c67', '71b1214d-5609-47cf-b76b-ec2e4ed65886', 'dd7611ab-55de-4b6f-a93a-b66a10e4eb8b', '384bd03a-185f-44c7-aa6d-188a156b4296', 'd62cfe06-1dfd-431b-9e47-ff5cf9e92a62', 'd4f47ea6-2795-497d-b7ca-78a29c973dd3', 'e13339ca-426d-4ade-acf1-e7d6a00c6fc2', 'e2b8b728-18b2-472d-bee8-cb84922b0b3c', 'be790ec7-ee98-4781-ad00-6df196df84d7', '6b771d0e-6d8c-43dd-93d6-6af06c07dea8']...
+DAMAGE ASSESSMENT LENGTH: 800 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 54
+• No damage: 51 buildings (94.4%) - These structures show no visible signs o...
+✅ File integrity verified for midwest-flooding_00000010
+   Pre-JSON: 1877 bytes
+   Post-JSON: 1980 bytes
+   Pre-Image: 1333272 bytes
+   Post-Image: 1562727 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000010
+================================================================================
+PRE-DISASTER BUILDINGS: 2
+POST-DISASTER BUILDINGS: 2
+PRE-DISASTER UIDs: ['a74b13fe-7a2a-4f11-ba6f-76b5dd55a5b4', '0cb290fa-eaec-4b64-935c-4a6546727110']
+POST-DISASTER UIDs: ['a74b13fe-7a2a-4f11-ba6f-76b5dd55a5b4', '0cb290fa-eaec-4b64-935c-4a6546727110']
+DAMAGE ASSESSMENT LENGTH: 704 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 2
+• Completely destroyed: 2 buildings (100.0%) - Structures are completely demo...
+✅ File integrity verified for midwest-flooding_00000012
+   Pre-JSON: 2403 bytes
+   Post-JSON: 2558 bytes
+   Pre-Image: 1265139 bytes
+   Post-Image: 1516720 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000012
+================================================================================
+PRE-DISASTER BUILDINGS: 3
+POST-DISASTER BUILDINGS: 3
+PRE-DISASTER UIDs: ['fd99a162-372a-4540-af67-42197d2d2bb6', 'cd99652e-5b12-41ca-a381-15f125a56b37', '171a7152-6430-4a5c-afa0-aa2e96d46308']
+POST-DISASTER UIDs: ['fd99a162-372a-4540-af67-42197d2d2bb6', 'cd99652e-5b12-41ca-a381-15f125a56b37', '171a7152-6430-4a5c-afa0-aa2e96d46308']
+DAMAGE ASSESSMENT LENGTH: 862 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 3
+• No damage: 1 buildings (33.3%) - These structures show no visible signs of ...
+✅ File integrity verified for midwest-flooding_00000013
+   Pre-JSON: 117414 bytes
+   Post-JSON: 125302 bytes
+   Pre-Image: 1545335 bytes
+   Post-Image: 1570393 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000013
+================================================================================
+PRE-DISASTER BUILDINGS: 132
+POST-DISASTER BUILDINGS: 132
+PRE-DISASTER UIDs: ['0ac745f7-69d7-4133-8882-39931216aead', 'a73f404b-9e45-4571-bcc3-4183bd8a92fc', '91def045-7c5a-41be-8a9c-9b7b82e30df2', '2663b50d-aa80-4e74-b202-56a354949ed7', 'dd9fd05e-2334-436f-9a63-22a67acef529', '338955d5-b782-4e0b-bb84-6bd3c6302ff1', '03755c0b-0676-4334-9893-301791d401d3', 'ce8d519f-df39-49cd-aa4e-b4096925a874', 'c8a5cebf-9428-4207-9c4f-4458a602c26c', 'f5742ec1-0a82-40ab-a706-0096aafa1035']...
+POST-DISASTER UIDs: ['0ac745f7-69d7-4133-8882-39931216aead', 'a73f404b-9e45-4571-bcc3-4183bd8a92fc', '91def045-7c5a-41be-8a9c-9b7b82e30df2', '2663b50d-aa80-4e74-b202-56a354949ed7', 'dd9fd05e-2334-436f-9a63-22a67acef529', '338955d5-b782-4e0b-bb84-6bd3c6302ff1', '03755c0b-0676-4334-9893-301791d401d3', 'ce8d519f-df39-49cd-aa4e-b4096925a874', 'c8a5cebf-9428-4207-9c4f-4458a602c26c', 'f5742ec1-0a82-40ab-a706-0096aafa1035']...
+DAMAGE ASSESSMENT LENGTH: 590 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 132
+• No damage: 128 buildings (97.0%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000018
+   Pre-JSON: 141690 bytes
+   Post-JSON: 151994 bytes
+   Pre-Image: 1495183 bytes
+   Post-Image: 1419419 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000018
+================================================================================
+PRE-DISASTER BUILDINGS: 181
+POST-DISASTER BUILDINGS: 181
+PRE-DISASTER UIDs: ['76caffb6-c313-4dad-ac7e-030c8e17d41e', '4dfaccd0-efdb-44f0-8563-6b0ace101ae8', '63290222-7454-49dd-8f35-bbe019eb1aad', 'b0b5be61-c3f1-4f00-8ee6-a4e89ed7d908', 'f363f582-c0ba-4361-b558-bfc2b4dc4129', 'c534ea37-81b8-4024-889e-483e545cdd1a', 'db8d7118-8736-432e-92da-29e743d8804c', '9176fca6-427a-4a81-a5bb-1c3305059db0', '2356f2bc-3bd7-4183-8417-b444361c90a5', '1ec400fe-eeda-4b83-9807-1162596ded9a']...
+POST-DISASTER UIDs: ['76caffb6-c313-4dad-ac7e-030c8e17d41e', '4dfaccd0-efdb-44f0-8563-6b0ace101ae8', '63290222-7454-49dd-8f35-bbe019eb1aad', 'b0b5be61-c3f1-4f00-8ee6-a4e89ed7d908', 'f363f582-c0ba-4361-b558-bfc2b4dc4129', 'c534ea37-81b8-4024-889e-483e545cdd1a', 'db8d7118-8736-432e-92da-29e743d8804c', '9176fca6-427a-4a81-a5bb-1c3305059db0', '2356f2bc-3bd7-4183-8417-b444361c90a5', '1ec400fe-eeda-4b83-9807-1162596ded9a']...
+DAMAGE ASSESSMENT LENGTH: 804 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 181
+• No damage: 166 buildings (91.7%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000019
+   Pre-JSON: 44939 bytes
+   Post-JSON: 47889 bytes
+   Pre-Image: 1452498 bytes
+   Post-Image: 1335463 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000019
+================================================================================
+PRE-DISASTER BUILDINGS: 50
+POST-DISASTER BUILDINGS: 50
+PRE-DISASTER UIDs: ['1e2b4da9-c9ef-4d2b-8e9a-659609c3dcf5', 'f9ea9601-2ec9-42b9-accd-5736e873117f', 'cec94299-4585-4b2f-b82d-84f024246e0f', 'ad145ae6-7099-4357-a863-edb327c4aeac', 'dc3757ad-cd48-45ad-beb9-3bc10794af61', '38e2eebb-de9a-4d5f-abf3-6e5712ddd668', 'd932a8b2-0c16-422f-9cbe-5e44f1b86626', '719d4ca4-1917-47c4-b5be-949b2a30a648', 'f6926ad9-c55f-4975-8096-c06b4c0933e7', '26a90f78-653b-4561-a21d-e13cd6456863']...
+POST-DISASTER UIDs: ['1e2b4da9-c9ef-4d2b-8e9a-659609c3dcf5', 'f9ea9601-2ec9-42b9-accd-5736e873117f', 'cec94299-4585-4b2f-b82d-84f024246e0f', 'ad145ae6-7099-4357-a863-edb327c4aeac', 'dc3757ad-cd48-45ad-beb9-3bc10794af61', '38e2eebb-de9a-4d5f-abf3-6e5712ddd668', 'd932a8b2-0c16-422f-9cbe-5e44f1b86626', '719d4ca4-1917-47c4-b5be-949b2a30a648', 'f6926ad9-c55f-4975-8096-c06b4c0933e7', '26a90f78-653b-4561-a21d-e13cd6456863']...
+DAMAGE ASSESSMENT LENGTH: 500 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 50
+• No damage: 50 buildings (100.0%) - These structures show no visible signs ...
+✅ File integrity verified for midwest-flooding_00000020
+   Pre-JSON: 154559 bytes
+   Post-JSON: 162548 bytes
+   Pre-Image: 1517384 bytes
+   Post-Image: 1406830 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000020
+================================================================================
+PRE-DISASTER BUILDINGS: 148
+POST-DISASTER BUILDINGS: 148
+PRE-DISASTER UIDs: ['cfdc18dd-d27b-4d3f-b8e3-5ace70033a7c', '12d90b8e-f98c-4b26-9a9f-c6d9e821db95', '2b1a7bd0-c03f-44a3-9e60-67242a6fd93d', '42682d4e-110c-40c8-9d6e-8fcb16a4f561', '396d9710-77ae-4c4a-b29b-9df6922ddd7d', '6e869e7b-5821-44e4-b9cf-c224ffe9a0c8', 'ee3ceff3-142b-42c5-87a3-1a656d548377', 'd3b2caae-417a-40cf-a614-f7fa8c092360', '48d96909-5567-415b-9e86-397a8037d899', 'bf316b5b-72e8-4e0c-96d6-1ec8f8e864e9']...
+POST-DISASTER UIDs: ['cfdc18dd-d27b-4d3f-b8e3-5ace70033a7c', '12d90b8e-f98c-4b26-9a9f-c6d9e821db95', '2b1a7bd0-c03f-44a3-9e60-67242a6fd93d', '42682d4e-110c-40c8-9d6e-8fcb16a4f561', '396d9710-77ae-4c4a-b29b-9df6922ddd7d', '6e869e7b-5821-44e4-b9cf-c224ffe9a0c8', 'ee3ceff3-142b-42c5-87a3-1a656d548377', 'd3b2caae-417a-40cf-a614-f7fa8c092360', '48d96909-5567-415b-9e86-397a8037d899', 'bf316b5b-72e8-4e0c-96d6-1ec8f8e864e9']...
+DAMAGE ASSESSMENT LENGTH: 803 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 148
+• No damage: 141 buildings (95.3%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000021
+   Pre-JSON: 5033 bytes
+   Post-JSON: 5509 bytes
+   Pre-Image: 1372901 bytes
+   Post-Image: 1260294 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000021
+================================================================================
+PRE-DISASTER BUILDINGS: 6
+POST-DISASTER BUILDINGS: 6
+PRE-DISASTER UIDs: ['385fbd07-42e9-4b38-9e4f-3faf278a61f4', '62e4a104-b48c-4489-8984-a30e1a15059a', 'd6350bcd-499d-44a5-b57d-6f15760f56bd', 'a8a29c7c-0511-4319-9643-b2d9abe77f83', '4d54b467-0822-45ac-8e87-0c88cdef359f', '5ec5a023-977d-4ee9-b048-1d781353ecf2']
+POST-DISASTER UIDs: ['385fbd07-42e9-4b38-9e4f-3faf278a61f4', '62e4a104-b48c-4489-8984-a30e1a15059a', 'd6350bcd-499d-44a5-b57d-6f15760f56bd', 'a8a29c7c-0511-4319-9643-b2d9abe77f83', '4d54b467-0822-45ac-8e87-0c88cdef359f', '5ec5a023-977d-4ee9-b048-1d781353ecf2']
+DAMAGE ASSESSMENT LENGTH: 1277 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 6
+• No damage: 1 buildings (16.7%) - These structures show no visible signs of ...
+✅ File integrity verified for midwest-flooding_00000022
+   Pre-JSON: 217066 bytes
+   Post-JSON: 232621 bytes
+   Pre-Image: 1506587 bytes
+   Post-Image: 1428877 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000022
+================================================================================
+PRE-DISASTER BUILDINGS: 277
+POST-DISASTER BUILDINGS: 277
+PRE-DISASTER UIDs: ['5d8e36ec-6b7f-4b6e-adf5-5a1b4d292bfd', 'd5b19d91-ff65-4aac-b3b4-d4b27d87b09c', '31ad848e-5969-4384-81fd-2cd095e154e1', '90f66eea-2dc6-49cc-88fa-03faab2bde83', 'b68340a0-1b09-425c-9136-1d40aabd94fd', 'bfddc6ff-2ad1-4fd9-998a-8c5a31020377', '22b0782f-65fc-492a-a74e-f5ed0f7d76bf', '98a70776-6639-41df-8602-fefa4d1f9b85', 'fb52c639-aaf5-42d1-8814-936d14f7c87b', '21ee16a5-4357-4f74-869a-95f3b4cdef29']...
+POST-DISASTER UIDs: ['5d8e36ec-6b7f-4b6e-adf5-5a1b4d292bfd', 'd5b19d91-ff65-4aac-b3b4-d4b27d87b09c', '31ad848e-5969-4384-81fd-2cd095e154e1', '90f66eea-2dc6-49cc-88fa-03faab2bde83', 'b68340a0-1b09-425c-9136-1d40aabd94fd', 'bfddc6ff-2ad1-4fd9-998a-8c5a31020377', '22b0782f-65fc-492a-a74e-f5ed0f7d76bf', '98a70776-6639-41df-8602-fefa4d1f9b85', 'fb52c639-aaf5-42d1-8814-936d14f7c87b', '21ee16a5-4357-4f74-869a-95f3b4cdef29']...
+DAMAGE ASSESSMENT LENGTH: 592 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 277
+• No damage: 240 buildings (86.6%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000023
+   Pre-JSON: 133999 bytes
+   Post-JSON: 144391 bytes
+   Pre-Image: 1527998 bytes
+   Post-Image: 1516891 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000023
+================================================================================
+PRE-DISASTER BUILDINGS: 175
+POST-DISASTER BUILDINGS: 175
+PRE-DISASTER UIDs: ['4e1f7739-42f0-418e-bec4-87292aa9417d', 'e86d0086-c447-4a82-954c-11e807249f5f', '29d26100-db41-4d43-a830-b6b8fc6ddb1a', '613cec76-dc87-4ae1-bb47-4b8b1d1a62f5', '655228d4-b14a-4164-b132-aee6f6332802', 'e369cc0b-7edf-422f-abff-7833a3e9204a', '84ddd381-f477-4f70-98ea-3835908c8b1d', 'aea891b6-1e1c-4495-bb8b-43bb79d0d6b5', '94ff57b1-537d-4571-9eef-4f5ea9ac2751', '8ab60a14-3370-49bb-9917-8da925f634ce']...
+POST-DISASTER UIDs: ['4e1f7739-42f0-418e-bec4-87292aa9417d', 'e86d0086-c447-4a82-954c-11e807249f5f', '29d26100-db41-4d43-a830-b6b8fc6ddb1a', '613cec76-dc87-4ae1-bb47-4b8b1d1a62f5', '655228d4-b14a-4164-b132-aee6f6332802', 'e369cc0b-7edf-422f-abff-7833a3e9204a', '84ddd381-f477-4f70-98ea-3835908c8b1d', 'aea891b6-1e1c-4495-bb8b-43bb79d0d6b5', '94ff57b1-537d-4571-9eef-4f5ea9ac2751', '8ab60a14-3370-49bb-9917-8da925f634ce']...
+DAMAGE ASSESSMENT LENGTH: 805 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 175
+• No damage: 150 buildings (85.7%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000024
+   Pre-JSON: 242682 bytes
+   Post-JSON: 260361 bytes
+   Pre-Image: 1595602 bytes
+   Post-Image: 1485957 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000024
+================================================================================
+PRE-DISASTER BUILDINGS: 304
+POST-DISASTER BUILDINGS: 304
+PRE-DISASTER UIDs: ['7f8b7a5e-1764-445d-82a4-5a37c235ae51', '1d1e7f35-8273-4507-89d8-16002db65e1a', '5b60a949-5a8e-4ec1-a17c-8acf0e9be894', '971b0852-06b6-4892-918f-1afb535e801c', '1682e4ac-65e8-423c-b238-685ded2bc087', '0a6dfeae-054f-4e72-af0b-ebeee243ff20', 'b5e428c2-5521-43ff-80d0-e180ed60535a', 'b632ff96-c8d6-4a64-b9f3-2bd19ff305b7', 'e73f254e-2437-4cf9-93b7-2011c52cb0a6', 'bac00916-2432-4c99-84b5-64092c8222a9']...
+POST-DISASTER UIDs: ['7f8b7a5e-1764-445d-82a4-5a37c235ae51', '1d1e7f35-8273-4507-89d8-16002db65e1a', '5b60a949-5a8e-4ec1-a17c-8acf0e9be894', '971b0852-06b6-4892-918f-1afb535e801c', '1682e4ac-65e8-423c-b238-685ded2bc087', '0a6dfeae-054f-4e72-af0b-ebeee243ff20', 'b5e428c2-5521-43ff-80d0-e180ed60535a', 'b632ff96-c8d6-4a64-b9f3-2bd19ff305b7', 'e73f254e-2437-4cf9-93b7-2011c52cb0a6', 'bac00916-2432-4c99-84b5-64092c8222a9']...
+DAMAGE ASSESSMENT LENGTH: 591 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 304
+• No damage: 277 buildings (91.1%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000025
+   Pre-JSON: 65122 bytes
+   Post-JSON: 69674 bytes
+   Pre-Image: 1532293 bytes
+   Post-Image: 1371821 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000025
+================================================================================
+PRE-DISASTER BUILDINGS: 73
+POST-DISASTER BUILDINGS: 73
+PRE-DISASTER UIDs: ['7d18a2d2-7eeb-47a5-8384-eb2beb9f83da', '319c0d21-232b-448c-99e3-030eb40ae9fe', 'ac912371-135a-4889-bec7-fc95fcbce63b', '1a09b464-61cd-4f9b-91a8-b14d1ce50778', 'b13ce115-783f-4ce0-9072-b00901ff933f', '0b0b5f83-11db-4a2f-941c-2429ed430c79', '82ce9bb2-db48-4387-9355-a8340f1c8213', '59d47453-11da-4155-bedb-3ca197c34c6e', '6b134b4a-2864-4359-a683-087f54058ea2', 'accc231e-c71b-4b70-bf75-528138de3b35']...
+POST-DISASTER UIDs: ['7d18a2d2-7eeb-47a5-8384-eb2beb9f83da', '319c0d21-232b-448c-99e3-030eb40ae9fe', 'ac912371-135a-4889-bec7-fc95fcbce63b', '1a09b464-61cd-4f9b-91a8-b14d1ce50778', 'b13ce115-783f-4ce0-9072-b00901ff933f', '0b0b5f83-11db-4a2f-941c-2429ed430c79', '82ce9bb2-db48-4387-9355-a8340f1c8213', '59d47453-11da-4155-bedb-3ca197c34c6e', '6b134b4a-2864-4359-a683-087f54058ea2', 'accc231e-c71b-4b70-bf75-528138de3b35']...
+DAMAGE ASSESSMENT LENGTH: 588 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 73
+• No damage: 66 buildings (90.4%) - These structures show no visible signs o...
+✅ File integrity verified for midwest-flooding_00000027
+   Pre-JSON: 56038 bytes
+   Post-JSON: 60082 bytes
+   Pre-Image: 1419676 bytes
+   Post-Image: 1455683 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000027
+================================================================================
+PRE-DISASTER BUILDINGS: 65
+POST-DISASTER BUILDINGS: 65
+PRE-DISASTER UIDs: ['a1b3b8fd-dce8-4a6b-966c-34bdb2ae4ade', '4908854b-3592-40c4-b279-d453f6849bc7', 'f21de4e3-41c7-46a0-a5bb-f59aaeac77b2', '04bbf19e-6bd7-41df-b40b-64101805bc5a', '62275cd5-aace-446d-adad-70fb75d8d018', '89664c40-7b31-4b61-8fd5-fe568ed03f42', 'f268615a-a9d1-4ea2-9334-7a6ba1c84564', '546593c1-c864-4b7c-bf0e-97100764caa0', 'c38d99dd-3e92-49d9-b45f-fe91a1d5e4d6', '0d43a5f6-885e-4124-ad03-47a7c4f3a6be']...
+POST-DISASTER UIDs: ['a1b3b8fd-dce8-4a6b-966c-34bdb2ae4ade', '4908854b-3592-40c4-b279-d453f6849bc7', 'f21de4e3-41c7-46a0-a5bb-f59aaeac77b2', '04bbf19e-6bd7-41df-b40b-64101805bc5a', '62275cd5-aace-446d-adad-70fb75d8d018', '89664c40-7b31-4b61-8fd5-fe568ed03f42', 'f268615a-a9d1-4ea2-9334-7a6ba1c84564', '546593c1-c864-4b7c-bf0e-97100764caa0', 'c38d99dd-3e92-49d9-b45f-fe91a1d5e4d6', '0d43a5f6-885e-4124-ad03-47a7c4f3a6be']...
+DAMAGE ASSESSMENT LENGTH: 588 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 65
+• No damage: 60 buildings (92.3%) - These structures show no visible signs o...
+✅ File integrity verified for midwest-flooding_00000028
+   Pre-JSON: 1876 bytes
+   Post-JSON: 1984 bytes
+   Pre-Image: 1265185 bytes
+   Post-Image: 1461464 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000028
+================================================================================
+PRE-DISASTER BUILDINGS: 2
+POST-DISASTER BUILDINGS: 2
+PRE-DISASTER UIDs: ['9ee5aecc-aff6-400c-a61d-dd73d45bbef8', '50b1ebac-9542-4dd3-8045-a66900e9eece']
+POST-DISASTER UIDs: ['9ee5aecc-aff6-400c-a61d-dd73d45bbef8', '50b1ebac-9542-4dd3-8045-a66900e9eece']
+DAMAGE ASSESSMENT LENGTH: 704 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 2
+• Completely destroyed: 2 buildings (100.0%) - Structures are completely demo...
+✅ File integrity verified for midwest-flooding_00000029
+   Pre-JSON: 232609 bytes
+   Post-JSON: 247799 bytes
+   Pre-Image: 1548475 bytes
+   Post-Image: 1478531 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000029
+================================================================================
+PRE-DISASTER BUILDINGS: 282
+POST-DISASTER BUILDINGS: 282
+PRE-DISASTER UIDs: ['68749114-3393-4ff1-83d2-959a995a0001', '48604df4-502d-40fb-bc03-7bde8b531b4d', 'a05f13a4-097a-4eaa-a60e-c4c707c35b56', '60dcfd78-c9e4-44fc-95ef-ebd510c50e2b', '6787fa1e-a467-42f6-9be4-ff23d5fed85b', 'aa6308d8-2bd9-4a72-bc37-2448f0f88a34', '43f2be41-42e2-47f5-adaa-d028d80ef6bf', '4e0a52eb-5ccb-4c4a-b920-ccbf088d448d', 'dbad1cd4-c9ec-42e9-8e68-0047efef1111', '3d3a69cb-65bd-49b7-a59b-dae41ff8790c']...
+POST-DISASTER UIDs: ['68749114-3393-4ff1-83d2-959a995a0001', '48604df4-502d-40fb-bc03-7bde8b531b4d', 'a05f13a4-097a-4eaa-a60e-c4c707c35b56', '60dcfd78-c9e4-44fc-95ef-ebd510c50e2b', '6787fa1e-a467-42f6-9be4-ff23d5fed85b', 'aa6308d8-2bd9-4a72-bc37-2448f0f88a34', '43f2be41-42e2-47f5-adaa-d028d80ef6bf', '4e0a52eb-5ccb-4c4a-b920-ccbf088d448d', 'dbad1cd4-c9ec-42e9-8e68-0047efef1111', '3d3a69cb-65bd-49b7-a59b-dae41ff8790c']...
+DAMAGE ASSESSMENT LENGTH: 591 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 282
+• No damage: 267 buildings (94.7%) - These structures show no visible signs...
+✅ File integrity verified for midwest-flooding_00000030
+   Pre-JSON: 4084 bytes
+   Post-JSON: 4356 bytes
+   Pre-Image: 1331524 bytes
+   Post-Image: 1094245 bytes
+
+================================================================================
+SAMPLE: midwest-flooding_00000030
+================================================================================
+PRE-DISASTER BUILDINGS: 3
+POST-DISASTER BUILDINGS: 3
+PRE-DISASTER UIDs: ['62abec52-59a3-43e3-9274-a8518e92c266', '91859421-f648-4944-8e08-4b8dd7c1994e', '4656c8b0-a142-4d6f-8965-8d9379718849']
+POST-DISASTER UIDs: ['62abec52-59a3-43e3-9274-a8518e92c266', '91859421-f648-4944-8e08-4b8dd7c1994e', '4656c8b0-a142-4d6f-8965-8d9379718849']
+DAMAGE ASSESSMENT LENGTH: 728 characters
+ASSESSMENT PREVIEW:
+**Disaster Impact Assessment Report**
+
+Disaster Type: Flooding
+
+**Building Analysis Summary:**
+Total buildings analyzed: 3
+• No damage: 2 buildings (66.7%) - These structures show no visible signs of ...

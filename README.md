@@ -31,3 +31,4 @@ train/
                     • Building count statistics
                     • Damage percentages# data.process.finetuning
 # data.process.finetuning
+# data.process.finetuning

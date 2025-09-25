@@ -30,3 +30,4 @@ train/
                     • Actual damage analysis from JSON
                     • Building count statistics
                     • Damage percentages# data.process.finetuning
+# data.process.finetuning

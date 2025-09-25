@@ -29,4 +29,4 @@ train/
                     • Real image paths
                     • Actual damage analysis from JSON
                     • Building count statistics
-                    • Damage percentages
+                    • Damage percentages# data.process.finetuning
